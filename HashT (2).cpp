@@ -11,7 +11,7 @@
  * size as well as insertion, rehashing/expanding, and finding a value
  * associated with a key.
  * 
- * Edited by Javier Laveaga (jlavea01) and Eva Caro (ecaro01) Friday, Dec 11.
+ * Edited by Eva Caro on 12/11/2023.
  */
 
 #include "HashT.h"
