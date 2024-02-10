@@ -2,8 +2,7 @@
 * Project 4: Gerp
 * CS 15
 * README
-* Edited by Javier Laveaga (jlavea01) and Eva Caro (ecaro01)  
-* 12/10/2023
+* Edited 12/10/2023
 *********************************************************/
 
 Compile/run:
@@ -64,31 +63,6 @@ Acknowledgements:
      size of a vector by doing (int).
 
 Files: 
-    Commands.txt
-        This file was used to input commands using case sensitive search
-    Commands2.txt
-        This file was used to input commands using case insensitive search
-    Commands3.txt
-        This file was used to test inputting commands with irregular 
-        characters, essentially testing stripNonAlphaNum
-    Commands4.txt
-        This file was used to test the command that changes the output
-        filename
-    Commands5.txt
-        This file was used to test inputting queries that have spaces and
-        new line characters between them
-    Commands6.txt
-        This file was used for testng when the command isi just @i
-    Commands7.txt
-        This command was used for testing when the new output file 
-        cannot be opened
-    Commands8.txt 
-        This command was used for testing w
-    Commands9.txt
-        This file contains commands that will not be found 
-    Commands10.txt
-        This file contains a query that is not a word and will be stripped
-        until it becomes the empty string.
     FSTreeTraversal.cpp
         File containing a main program for phase1 which tests the function
         responsible for printhing the paths of the files
@@ -122,7 +96,7 @@ Files:
         The file responsible for building the program and compiling, then
         linking all files together.
     README
-        This file which describes the gerper class overall.
+        This file describes the gerper class overall.
     unit_tests.h
         Test using the unit test framework to test the phase one function of 
         stripNonAlphaNum. Also tested past versions of the read_file_mario
@@ -136,33 +110,15 @@ Files:
         The definition of the function stripNonAlphaNum. This function parses
         through a string, getting rid of the non alphanumeric characters at 
         the front and back.
-    README
-        This file describing the program
-    my_output.txt
-        This file was used to save the lines outputed by my program gerp. 
-    ref_output.txt
-        This file was used to save the lines outputed by the program the_gerp. 
-    my_output_sorted.txt
-        This file contains the sorted lines provided by our program. It 
-        was reused multiple times for each commands file.
-    ref_output_sorted.txt
-        This file contains the sorted lines provided by the reference. It 
-        was reused multiple times for each commands file. 
-    my_std_out.txt
-        This file was used to save the standard output of my program gerp. It
-        was then compared to the reference standard output.
-    ref_std_out.txt
-        This file was used to save the standard output of the reference program
-        the_gerp. It was then diffed with my_std_out.txt
 
 Data Structures:
 
     We used a vector of vectors to implement the HashT class. Vectors
     are arrays with no fixed size. They implement the list ADT, which 
-    entails a data structure that stores elemenSincts in a list with a 
+    entails a data structure that stores elements in a list with a 
     specific order (though not necessarily sorted) and includes functions
     for insertion, removal (can be from particular index), replacement, 
-    getting size, checking whether it isEmpty, and retrieval of elements.
+    getting size, checking whether it is empty, and retrieval of elements.
 
     Our HashT's vector of vectors is a data structure that is similar to 
     a 2-D array, except it has no fixed amount of rows or columns. This 
@@ -220,67 +176,3 @@ Data Structures:
 
     N-ary Tree is a tree where nodes have any number of children.
      
-
-Testing:
-
-    The HashT class was tested using the unit test framework. The methods 
-    involving insertion, expanding, compression, and the find value
-    were tested thoroughly. Testing to see that the table properly expanded
-    based on the load factor was also tested.
-
-    Eight command files were created to test against the reference. These
-    were used in combination with other files to diff against the reference.
-    For using diff, there were 3 pairs of files created. The files used 
-    with our program gerp were my_output.txt, my_output_sorted, and
-    my_std_out.txt. The ones used with the reference were ref_output.txt, 
-    ref_output_sorted, and ref_std_out.txt.
-
-    An example below represents the testing in the terminal. X here represents
-    a commands file out of the ones created. Thus, this process was done for 
-    every command file. These commands files contained sample queries that
-    included all the possible queries ("@q", "@f", @i AnyString, and AnyString).
-    Reaching the end of file was also tested by omitting the @q. 
-
-    Example: 
-    ./gerp proj-gerp-test-dirs/smallGutenberg my_output.txt < CommandsX.txt 
-    > my_std_out.txt
-
-    ./the_gerp proj-gerp-test-dirs/smallGutenberg ref_output.txt < 
-    CommandsX.txt > ref_std_out.txt
-
-    sort my_output.txt > my_output_sorted.txt
-    sort ref_output.txt > ref_output_sorted.txt
-    diff my_output_sorted.txt ref_output_sorted.txt
-
-    diff ref_std_out.txt my_std_out.txt
-
-    The unit test framework was used to test the stripNonAlphaNum function
-    with different types of strings. A test was written for every different
-    type of string.
-
-    The unit test framework was also used to test past versions of the 
-    read_file_mario function as well as the test_to_Lower function.
-
-    We tested the FSTreeTraversal program by creating sample directories 
-    and using the ones provided. Then, the output was verified by seeing
-    the terminal output.
-
-    Finally, a main program (main_tester.cpp) was created to test the 
-    gerper class. This main program tested all of the methods in 
-    the gerper class. Note that the toLower method was tested using
-    unit tests. This file used to be the main.cpp, so it was compiled
-    and the standard output was seen in the termina for debugging.
-
-    Also, the command gerp_perf [DirectoryToIndex] [OutputFile] was
-    used to test the space and time complexities of our program.
-    This was ran by providing the largeGutenberg directory. This 
-    resulted in a runtime of 1 min 17 sec and a peak RAM usage of 
-    1.899 GB.
-
-    An empty directory was created to test for that edge case. A smaller
-    directory with 3 files was also created for testing gerp quickly.
-    The main directory we used for testing was 
-    proj-gerp-test-dirs/smallGutenberg
-
-
-Time Spent: We spent approximately 42 hours on this project
