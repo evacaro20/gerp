@@ -3,8 +3,8 @@
 #########################################################
 # COMP 15 Project 4: Gerp
 # 
-# Edited by Javier Laveaga (jlavea01) and Eva Caro (ecaro01) 
-# Thursday, November 15.
+# Edited by Eva Caro 12/08/2023
+
 
 CXX      = clang++
 CXXFLAGS = -g3 -Wall -Wextra -Wpedantic -Wshadow 
@@ -21,7 +21,6 @@ traverse_exec: FSTree.o DirNode.o FSTreeTraversal.o
 
 FSTreeTraversal.o: FSTreeTraversal.cpp FSTree.h DirNode.h
 	$(CXX) $(CXXFLAGS) -c FSTreeTraversal.cpp
-
 
 
 unit_test: unit_test_driver.o stringProcessing.o HashT.o Gerper.o FSTree.o DirNode.o
