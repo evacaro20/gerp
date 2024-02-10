@@ -3,7 +3,7 @@
  * Contains: Interface of the DirNode class
  *           Each DirNode will be a folder (and contain info of files
  *           inside that directory.
- * Part of: Project 2 assignment "Grep" for Comp 15 Fall 2018
+ * Provided to me by Tufts University course staff for use in the gerp program
  *
  */
 
