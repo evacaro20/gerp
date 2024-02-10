@@ -10,7 +10,7 @@
  * the option of case sensitive/insensitive search. Also handles 
  * querying users for words to find in the files.
  * 
- * Edited by Javier Laveaga (jlavea01) and Eva Caro (ecaro01) Friday, Dec 11.
+ * Edited by Eva Caro 12/11/2024
  */
 
 #include "Gerper.h"
