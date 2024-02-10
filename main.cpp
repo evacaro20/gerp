@@ -1,6 +1,6 @@
 /*
  * main.cpp
- * Javier Laveaga and Eva Caro
+ * Eva Caro
  * 12/10/2023
  * 
  * CS 15 Project 4: Gerp
