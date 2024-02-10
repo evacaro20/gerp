@@ -7,8 +7,8 @@
  * through a string, getting rid of the non alphanumeric characters at 
  * the front and back.
  * 
- * Edited by Javier Laveaga (jlavea01) and Eva Caro (ecaro01) 
- * Saturday, Dec 2 2023
+ * Edited by Eva Caro 
+ * 12/02/2023
  */
 
 #include "stringProcessing.h"
