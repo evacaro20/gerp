@@ -1,7 +1,5 @@
 /*
  * hash.h
- *
- * COMP 15 Project 4: Gerp
  * 
  * Interface of the HashT class. It is responsible for constructing
  * a hash table of a given size as well as insertion, 
@@ -11,7 +9,7 @@
  * integers which has the indices of the filled buckets of the outer
  * vector.
  * 
- * Edited by Javier Laveaga (jlavea01) and Eva Caro (ecaro01) Friday, Dec 11.
+ * Edited 12/11/2023
  */
 
 #ifndef HASHT_H
