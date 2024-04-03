@@ -1,15 +1,12 @@
 /*
  * unit_tests.h
- *
- * COMP 15 Project 4: Gerp
  * 
  * Purpose: To test the stripNonAlphaNum function with various strings
  * and the tree_traverse function which prints out all the file 
  * paths for every file in a given directory. Also tested past versions 
  * of the read_file_mario function as well as the test_to_Lower function.
  * 
- * Edited by Javier Laveaga (jlavea01) and Eva Caro (ecaro01) 
- * Saturday, Dec 11 2023
+ * Edited 12/11/2023
  */
 
 #include <cassert>
