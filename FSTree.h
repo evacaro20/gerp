@@ -2,7 +2,6 @@
  * Filename: DirNode.h
  * Contains: Interface of the FSTree class
  *           This class contains an n-ary tree to represent a file system
- * Provided to me by Tufts University course staff for use in the gerp program
  */
 
 #ifndef TREE_H
