@@ -1,9 +1,6 @@
 /*
  * FSTreeTraversal.cpp
- * Javier Laveaga and Eva Caro
  * 12/02/2023
- * 
- * CS 15 Project 4: Gerp
  * 
  * Purpose: Traverses a tree consisting of DirNodes which represent 
  * directories and files, printing out the paths to each file. 
