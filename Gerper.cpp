@@ -1,7 +1,5 @@
 /*
  * Gerper.cpp
- *
- * COMP 15 Project 4: Gerp
  * 
  * Implementation of the Gerper class, which is a word-search algorithm
  * for directories of files and utilizes the HashT class. It creates an 
@@ -10,7 +8,7 @@
  * the option of case sensitive/insensitive search. Also handles 
  * querying users for words to find in the files.
  * 
- * Edited by Eva Caro 12/11/2024
+ * Edited 12/11/2024
  */
 
 #include "Gerper.h"
