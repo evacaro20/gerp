@@ -1,7 +1,5 @@
 /*
  * hash.cpp
- *
- * COMP 15 Project 4: Gerp
  * 
  * Implementation of the HashT class. This class implements a
  * hash table with keys of type string and uses a template for the 
@@ -11,7 +9,7 @@
  * size as well as insertion, rehashing/expanding, and finding a value
  * associated with a key.
  * 
- * Edited by Eva Caro on 12/11/2023.
+ * Edited 12/11/2023.
  */
 
 #include "HashT.h"
