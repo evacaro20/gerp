@@ -1,7 +1,5 @@
 /*
  * Gerper.h
- *
- * COMP 15 Project 4: Gerp
  * 
  * Interface for the Gerper class, which is a word-search algorithm
  * for directories of files. It enables near-immediate search, with 
@@ -15,7 +13,7 @@
  * as finding queries.
  * 
  * 
- * Edited by Javier Laveaga (jlavea01) and Eva Caro (ecaro01) Friday, Dec 11.
+ * Edited 12/11/2023
  */
 
 #ifndef GERPER_H
