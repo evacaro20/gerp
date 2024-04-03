@@ -1,14 +1,11 @@
 /*
  * stringProcessing.cpp
- *
- * COMP 15 Project 4: Gerp 
  * 
  * The definition of the function stripNonAlphaNum. This function parses
  * through a string, getting rid of the non alphanumeric characters at 
  * the front and back.
  * 
- * Edited by Eva Caro 
- * 12/02/2023
+ * Edited 12/02/2023
  */
 
 #include "stringProcessing.h"
