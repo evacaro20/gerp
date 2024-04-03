@@ -1,9 +1,7 @@
 /*
  * main.cpp
- * Eva Caro
- * 12/10/2023
  * 
- * CS 15 Project 4: Gerp
+ * 12/10/2023
  * 
  * Purpose: The main program of the Gerper class, which creates a 
  * word-search algorithm. It makes sure that the number of arguments
